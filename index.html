@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-img">
+                <img src="/images/logo.svg" alt="">
+            </div>
+            <div class="nav-link">
+                <ul class="link">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <form action="#">
+                    <input type="text" value="Log in">
+                    <input type="text" value="Open an account">
+                    <input type="text" value="EN">
+                </form>
+            </div>
+        </nav>
+    </header>
+    <menu class="menu">
+        <section>
+            <div class="item">
+                <img src="/images/logo.svg" alt="">
+                <h1>Welcome to ByTrend!</h1>
+                <div class="item-child">
+                    <p>Already have an account?</p>
+                    <ul class="link">
+                        <li><a href="/pages/login.html">Log in</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section>
+            <div class="register conteiner" >
+                <form class="register-form" action="#">
+                    <div>
+                        <label class="labelname" for="First name">First name*</label> 
+                        <input required name="First name" placeholder="Your name" id="First name" type="text" value="Alexander">
+                        <label class="labelname" for="Last name">Last name*</label> 
+                        <input required name="Last name" placeholder="Your surname" id="Last name" type="text">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="date">Birth date*</label>
+                        <input required name="date" placeholder="06.12.1992" id="date" type="date">
+                    </div>
+                    <br>
+                    <div>
+                        <p>Gender*</p>
+                        <input required name="gender" id="Female" type="radio">
+                        <label for="">Female</label>
+                        <input required name="gender" id="Male" type="radio">
+                        <label for="Male">Male</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Skype</label>
+                        <input required placeholder="Your login Skype" id="email" type="text">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="pas">Promo</label>
+                        <input required placeholder="Your promo" id="pas" type="text">
+                    </div>
+                    <br>
+                    <div class="btn">
+                        <button type="submit">
+                            <a href="/pages/secondstep.html">Continue</a>
+                        </button>
+                        <!-- <input required type="submit" value=""> -->
+                    </div>
+                </form>
+            </div>
+        </section>
+    </menu>
+    <footer class="end">
+        <div>
+            <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1460px;
+    height: 1000px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    list-style-type: none;
+}
+
+.link a {
+    display: flex;
+    text-decoration-line: none;
+    margin-left: 30px;
+}
+
+input {
+    margin-left: 30px;
+}
+
+
+menu {
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+.item  {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.item img {
+    margin-bottom: 30px;
+}
+
+.item-child {
+    display: flex;
+}
+
+.item h1 {
+    margin-bottom: 30px;
+}
+
+.item-child p {
+    margin-left: 600px;
+    
+}
+
+.item-child a {
+    text-decoration-line: underline;
+}
+
+.conteiner {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.labelname {
+    margin-right: -30px;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.conteiner {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type='email'] {
+    display: block;
+    padding: 5px 15px;
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+input[type='password'] {
+    display: block;
+    padding: 5px 15px;
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+#passwordBox {
+    position: relative;
+}
+
+#passwordBox i {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+input[type='submit'] {
+    padding: 12px 100px;
+    border-radius: 5px;
+    border-color: #01BAB3;
+    color: white;
+    background: #01BAB3;
+}
+
+.end {
+    margin-top: 50px;
+    text-align: center;
+}
